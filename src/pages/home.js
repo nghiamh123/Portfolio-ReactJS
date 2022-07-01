@@ -20,106 +20,106 @@ const Home =() => {
             {/* header */}
             <div className="container_header">
                 <div className="content">
-                <p>I'M</p>
-                <h1>NGHIA DANG</h1>
-                <h3>nothing is impossible</h3>
+                    <p>I'M</p>
+                    <h1>NGHIA DANG</h1>
+                    <h3>nothing is impossible</h3>
                 </div>
                 <div className='social-icons active' onClick={SrollTop}>
                     <i className="fas fa-chevron-circle-up" />
                 </div>
                 <div className="content_small">
-                <img
-                    src="./assets/images/header_img.jpg"
-                    alt="Avt"
-                    className="content_small-img"
-                />
-                <h1 className="content_small-heading">Dang Nghia</h1>
-                <h3 className="content_small-text">
-                    nothing is impossible
-                </h3>
-                <div className="content_small-social">
-                    <i className="fab fa-instagram" />
-                    <i className="fab fa-facebook-f" />
-                    <i className="fab fa-youtube" />
-                </div>
-                <div className="content_small-btn">
-                    <button className="btn content_small-btn-detail">more about me</button>
-                    <button className="btn content_small-btn-detail">My portfolio</button>
-                </div>
+                    <img
+                        src="./assets/images/header_img.jpg"
+                        alt="Avt"
+                        className="content_small-img"
+                    />
+                    <h1 className="content_small-heading">Dang Nghia</h1>
+                    <h3 className="content_small-text">
+                        nothing is impossible
+                    </h3>
+                    <div className="content_small-social">
+                        <i className="fab fa-instagram" />
+                        <i className="fab fa-facebook-f" />
+                        <i className="fab fa-youtube" />
+                    </div>
+                    <div className="content_small-btn">
+                        <button className="btn content_small-btn-detail">more about me</button>
+                        <button className="btn content_small-btn-detail">My portfolio</button>
+                    </div>
                 </div>
             </div>
             {/* about */}
             <div id="about" className="grid grid_mobile">
                 <div className="first_content">
-                <img className="first_content-img" src="./assets/images/about.jpg" alt="" />
-                <div className="first_content-text">
-                    <h1 className="first_content-heading">About Me</h1>
-                    <span className="first_content-detail">
-                    I graduated from TDT University in 2022 with a degree in Software
-                    Engineering. My interests are in Front End Engineering and I love to
-                    create beautiful and performant products with delightful user
-                    experiences.
-                    </span>
-                    <div className="first_content-more-detail">
-                    <div className="first_content-more-detail-col1">
-                        <ul className="more-detail-col1_list">
-                        <li className="more-detail-col1_item">
-                            <span className="more-detail-col1_item-label">Name: </span>
-                            <span className="more-detail-col1_item-detail">Dang Hoang Dai Nghia</span>
-                        </li>
-                        <li className="more-detail-col1_item">
-                            <span className="more-detail-col1_item-label">Birthdate: </span>
-                            <span className="more-detail-col1_item-detail">
-                            March 15th 2000
-                            </span>
-                        </li>
-                        <li className="more-detail-col1_item">
-                            <span className="more-detail-col1_item-label">Address: </span>
-                            <span className="more-detail-col1_item-detail">
-                            HCM City, VietNam
-                            </span>
-                        </li>
-                        <li className="more-detail-col1_item">
-                            <span className="more-detail-col1_item-label">
-                            Experience:{" "}
-                            </span>
-                            <span className="more-detail-col1_item-detail">Senior</span>
-                        </li>
-                        </ul>
-                        <ul className="more-detail-col1_list">
-                        <li className="more-detail-col1_item">
-                            <span className="more-detail-col1_item-label">Phone: </span>
-                            <span className="more-detail-col1_item-detail">
-                            +84853783578
-                            </span>
-                        </li>
-                        <li className="more-detail-col1_item">
-                            <span className="more-detail-col1_item-label">E-mail: </span>
-                            <span className="more-detail-col1_item-detail">
-                            nghia12a319@gmail.com
-                            </span>
-                        </li>
-                        <li className="more-detail-col1_item">
-                            <span className="more-detail-col1_item-label">
-                            University:{" "}
-                            </span>
-                            <span className="more-detail-col1_item-detail">
-                            Ton Duc Thang
-                            </span>
-                        </li>
-                        <li className="more-detail-col1_item">
-                            <span className="more-detail-col1_item-label">website: </span>
-                            <span className="more-detail-col1_item-detail">
-                            happyshop.vn
-                            </span>
-                        </li>
-                        </ul>
+                    <img className="first_content-img" src="./assets/images/about.jpg" alt="" />
+                    <div className="first_content-text">
+                        <h1 className="first_content-heading">About Me</h1>
+                        <span className="first_content-detail">
+                        I graduated from TDT University in 2022 with a degree in Software
+                        Engineering. My interests are in Front End Engineering and I love to
+                        create beautiful and performant products with delightful user
+                        experiences.
+                        </span>
+                        <div className="first_content-more-detail">
+                            <div className="first_content-more-detail-col1">
+                                <ul className="more-detail-col1_list">
+                                <li className="more-detail-col1_item">
+                                    <span className="more-detail-col1_item-label">Name: </span>
+                                    <span className="more-detail-col1_item-detail">Dang Hoang Dai Nghia</span>
+                                </li>
+                                <li className="more-detail-col1_item">
+                                    <span className="more-detail-col1_item-label">Birthdate: </span>
+                                    <span className="more-detail-col1_item-detail">
+                                    March 15th 2000
+                                    </span>
+                                </li>
+                                <li className="more-detail-col1_item">
+                                    <span className="more-detail-col1_item-label">Address: </span>
+                                    <span className="more-detail-col1_item-detail">
+                                    HCM City, VietNam
+                                    </span>
+                                </li>
+                                <li className="more-detail-col1_item">
+                                    <span className="more-detail-col1_item-label">
+                                    Experience:{" "}
+                                    </span>
+                                    <span className="more-detail-col1_item-detail">Senior</span>
+                                </li>
+                                </ul>
+                                <ul className="more-detail-col1_list">
+                                <li className="more-detail-col1_item">
+                                    <span className="more-detail-col1_item-label">Phone: </span>
+                                    <span className="more-detail-col1_item-detail">
+                                    +84853783578
+                                    </span>
+                                </li>
+                                <li className="more-detail-col1_item">
+                                    <span className="more-detail-col1_item-label">E-mail: </span>
+                                    <span className="more-detail-col1_item-detail">
+                                    nghia12a319@gmail.com
+                                    </span>
+                                </li>
+                                <li className="more-detail-col1_item">
+                                    <span className="more-detail-col1_item-label">
+                                    University:{" "}
+                                    </span>
+                                    <span className="more-detail-col1_item-detail">
+                                    Ton Duc Thang
+                                    </span>
+                                </li>
+                                <li className="more-detail-col1_item">
+                                    <span className="more-detail-col1_item-label">website: </span>
+                                    <span className="more-detail-col1_item-detail">
+                                    happyshop.vn
+                                    </span>
+                                </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div className="first_content-btn">
+                            <button className="first_content-view">View Full Resume</button>
+                        </div>
                     </div>
-                    </div>
-                    <div className="first_content-btn">
-                    <button className="first_content-view">View Full Resume</button>
-                    </div>
-                </div>
                 </div>
             </div>
             {/* photos */}
@@ -720,10 +720,6 @@ const Home =() => {
                 </div>
                 </div>
             </div>
-            {/* footer */}
-        <footer className="footer">
-            <div className="footer-text">© Copyright by Dang Nghia</div>
-        </footer>
         </div>
     );
 }

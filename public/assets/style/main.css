@@ -684,14 +684,3 @@ html{
     color: white;
 }
 
-.footer{
-    height: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
-}
-
-.footer-text{
-    color: white;
-}
