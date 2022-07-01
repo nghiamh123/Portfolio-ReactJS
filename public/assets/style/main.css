@@ -559,6 +559,7 @@ html{
     margin-bottom: 16px;
     display: block;
     line-height: 2;
+    text-align: left;
 }
 
 .my_blogs-item-more{
@@ -620,10 +621,10 @@ html{
     line-height: 50px;
     text-transform: uppercase;
     color: var(--text-color);
+    text-align: left;
 }
 
 .contact_heading-item-detail{
-    font-size: 15px;
     color: var(--text-color);
 }
 
@@ -656,7 +657,7 @@ html{
     font-size: 14px;
     padding: 10px 22px;
     box-shadow: none;
-    border: 1px solid #dfdfdf;
+    border: 1px solid #ccc;
     border-radius: 30px;
     width: 100%;
     transition: 0.5s ease-in;
@@ -684,3 +685,21 @@ html{
     color: white;
 }
 
+.my_blogs-item-footer{
+    text-align: left;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.social-link{
+    color: #666666;
+    transition: 0.2s;
+}
+
+.social-link:hover{
+    opacity: 0.8;
+}

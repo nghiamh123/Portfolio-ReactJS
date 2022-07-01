@@ -668,9 +668,15 @@ const Home =() => {
                         <div className="contact_heading-item-content">
                             <h3 className="contact_heading-item-heading">social media</h3>
                             <span className="contact_heading-item-detail">
-                            <i className="fab fa-facebook-square" />
-                            <i className="fab fa-instagram" />
-                            <i className="fab fa-twitter-square" />
+                            <a className="social-link" href="https://www.facebook.com/tsmnonames/">
+                                <i className="fab fa-facebook-square" />
+                            </a>
+                            <a className="social-link" href="https://www.instagram.com/big_meanz">
+                                <i className="fab fa-instagram" />
+                            </a>
+                            <a className="social-link" href="https://www.youtube.com/channel/UCDjlavMuBissUQsDBAtrpZA">
+                                <i className="fab fa-youtube-square" />
+                            </a>
                             </span>
                         </div>
                         </div>
@@ -682,32 +688,32 @@ const Home =() => {
                     projects, creative odeas or opportunities to be part of your visions.
                     </span>
                     <div className="grid_column-2 grid_full">
-                    <input
-                        placeholder="Name"
-                        type="text"
-                        className="contact_form-input"
-                    />
+                        <input
+                            placeholder="Name"
+                            type="text"
+                            className="contact_form-input"
+                        />
                     </div>
                     <div className="grid_column-2 grid_full">
-                    <input
-                        placeholder="Email"
-                        type="email"
-                        className="contact_form-input"
-                    />
+                        <input
+                            placeholder="Email"
+                            type="email"
+                            className="contact_form-input"
+                        />
                     </div>
                     <div className="grid_column-2 grid_full">
-                    <input
-                        placeholder="Phone Number"
-                        type="number"
-                        className="contact_form-input"
-                    />
+                        <input
+                            placeholder="Phone Number"
+                            type="number"
+                            className="contact_form-input"
+                        />
                     </div>
                     <div className="grid_column-2 grid_full">
-                    <input
-                        placeholder="Subject"
-                        type="text"
-                        className="contact_form-input"
-                    />
+                        <input
+                            placeholder="Subject"
+                            type="text"
+                            className="contact_form-input"
+                        />
                     </div>
                     <textarea
                     placeholder="Type your messsage here..."
